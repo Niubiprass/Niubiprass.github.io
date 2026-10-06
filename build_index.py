@@ -186,7 +186,7 @@ def _write_release():
         "Codename: ios",
         "Architectures: iphoneos-arm64 iphoneos-arm64e",
         "Components: main",
-        "Description: Niubiprass 自用源",
+        "Description: 只自用-支持穷逼 15 系统",
     ]
     for h in ("MD5Sum", "SHA1", "SHA256"):
         lines.append("")

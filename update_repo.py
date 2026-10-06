@@ -119,7 +119,7 @@ def rebuild_index():
     lines = [
         "Origin: Niubiprass", "Label: Niubiprass", "Suite: stable", "Version: 1.0",
         "Codename: ios", "Architectures: iphoneos-arm64 iphoneos-arm64e",
-        "Components: main", "Description: Niubiprass 自用源",
+        "Components: main", "Description: 只自用-支持穷逼 15 系统",
     ]
     for h in ("MD5Sum", "SHA1", "SHA256"):
         lines += ["", f"{h}:"]
