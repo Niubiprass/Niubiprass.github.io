@@ -193,6 +193,22 @@ MD5sum: 03a94fdca27ad3390830b2ba7cda28b8
 SHA1: fbb8a59119c5550acfaca00c404f9e37366ea0bc
 SHA256: eb11a5a3ebdafd9c52204657b3f63bc99961a49ba994423ffbd8b697102f3d1b
 
+Package: com.moxuan1121.clipboard
+Name: clipboard
+Description: iOS 15 剪贴板历史，保存文字和图片，支持自动粘贴。
+Maintainer: moxuan1121
+Author: moxuan1121
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.1.12
+Installed-Size: 528
+Filename: debs/com.moxuan1121.clipboard_0.1.12_iphoneos-arm64e.deb
+Size: 58816
+MD5sum: 21f9acea6a7f5e18669ece95b5a46c8c
+SHA1: 2b718c1b8baa92e0c94f51cfdc4e45092171cd17
+SHA256: 38ddd8356352e5062f9b025d59e2e29071a4591deeafcbceb6c4de2f761a4d1f
+
 Package: com.ntm.notifymanager
 Name: 通知管理
 Version: 2.3.11
