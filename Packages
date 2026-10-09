@@ -285,7 +285,7 @@ SHA256: 0b9445ac7ef6ed9894c8ec82776cbcd2b0ab90a508ba185258534db451e31e2b
 
 Package: com.wkk.copylogx
 Name: CopylogX
-Description: 剪贴板增强。1.1-13 使用 1.1-9 原版二进制，RootHide 布局，安装后默认启用。
+Description: 剪贴板增强。1.1-14 使用 1.1-9 原版二进制，已中和源锁弹窗，RootHide 布局，安装后默认启用。
 Maintainer: wkk
 Author: wkk
 Section: Tweaks
@@ -293,12 +293,12 @@ Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceload
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Architecture: iphoneos-arm64e
 Installed-Size: 1774
-Version: 1.1-13
-Filename: debs/com.wkk.copylogx_1.1-13_iphoneos-arm64e.deb
-Size: 274556
-MD5sum: 80d8c82351b7f7f8227a92decc20b023
-SHA1: f3edaadd7d1b5a4f41e6379a9373343d8d32a100
-SHA256: 8dad119f5d11354237ca699a27b4d5616721dece81b1be7350f8bf09d42c4dee
+Version: 1.1-14
+Filename: debs/com.wkk.copylogx_1.1-14_iphoneos-arm64e.deb
+Size: 274064
+MD5sum: 52859d886d3c6c7f1ebcd66f6c748871
+SHA1: a57b25f39705981b3acdebce8e105a8ad10f3013
+SHA256: 33708b700848b8113561ba0e2243efefa22daba680fea1613ce29112904f1c56
 
 Package: com.wkk.crane
 Version: 1.3.17
