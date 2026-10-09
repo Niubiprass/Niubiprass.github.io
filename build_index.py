@@ -36,7 +36,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DEBS = os.path.join(ROOT, "debs")
 CONFIG = os.path.join(ROOT, "update-config.json")
 # 这些目录里的 .deb 不作为仓库包收拢（构建缓存 / 版本控制元数据等）
-SKIP_DIRS = {".git", ".update-cache", "node_modules", "__pycache__"}
+SKIP_DIRS = {".git", ".update-cache", "node_modules", "__pycache__", "archive"}
 
 
 def log(*a):
