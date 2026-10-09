@@ -15,6 +15,21 @@ MD5sum: fd1e26e7c7555ae2509078b7ce248e8d
 SHA1: bed5dd2d7ad0519540843fafdc9cda390cfdc9f5
 SHA256: c716e9c863b389f628980832e37ee81c844d064540c9ee1b15cfa0fd845d0778
 
+Package: cn.zqbb.editprefs
+Name: Hello Edit Prefs
+Description: An awesome application!
+Maintainer: zqbb
+Author: zqbb
+Section: Utilities
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Installed-Size: 160
+Filename: debs/cn.zqbb.editprefs_1.1.0_iphoneos-arm64e.deb
+Size: 34860
+MD5sum: e1023f170db3e69f5e67fc17f0dda55b
+SHA1: 8acb7a6dec52942fdf6eb45b4d148cd8ba910007
+SHA256: 09a845e849044786843abf48e676855dee9dd18ea92f765c03f4a251210d4531
+
 Package: com.aptzh
 Name: Sileo APT/DPKG汉化
 Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
