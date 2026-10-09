@@ -25,7 +25,7 @@
     { "package": "com.wkk.crane",                      "arch": "iphoneos-arm64e" },
     { "package": "com.wkk.copylogx",                   "arch": "iphoneos-arm64e",
       "altNames": ["com.wkk.copylogx111", "com.wkk.CopylogX"],
-      "locked": true, "lockedNote": "本地定制版 1.1-12：补全设置入口，安装后写入 Enabled/ActivationMethods 默认值，禁止外部源覆盖" },
+      "locked": true, "lockedNote": "本地定制版 1.1-13：使用 1.1-9 原版二进制 + RootHide 补丁，安装后写入 Enabled/ActivationMethods，禁止外部源覆盖" },
     { "package": "com.wkk.systembox",                  "arch": "iphoneos-arm64e",
       "altNames": ["com.wkk.systemx111", "com.wkk.Systemxxxxx", "com.wkk.SystemX"],
       "locked": true, "lockedNote": "本地定制版 1.4-7.8：已中和源锁与弹窗，禁止外部源覆盖" },
