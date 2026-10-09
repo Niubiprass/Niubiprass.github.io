@@ -102,20 +102,21 @@ SHA1: e07bbb8968787e5949bf8f85b08643fc03682068
 SHA256: 39a50817398bd7064645d7835b38e22c5e3388198b59dbeff90b018c8ae8c249
 
 Package: com.huayuarc.speedster
-Version: 2.1.3-2
-Architecture: iphoneos-arm64e
-Section: Tweaks
-Maintainer: Huayuarc
-Installed-Size: 476
-Author: Hoangdus&Unknown
 Name: Speedster
-Depends: firmware (>= 13.0), preferenceloader, mobilesubstrate
 Description: 更快的动画 + 系统增强：通知不亮锁屏/禁用App资源库/禁锁屏手电&相机/禁快门声/移除解锁延迟/锁屏来电拒接/应用动画方向/彻关Wi-Fi蓝牙/设备朝下锁屏/通话录音静音/Watch配对/禁用OTA/网格后台/iPad Dock/画中画/禁用企业签名。
+Maintainer: Huayuarc
+Author: Hoangdus&Unknown
+Section: Tweaks
+Depends: firmware (>=13.0), preferenceloader, mobilesubstrate
+icon: https://huayuarc.github.io/icon/Speedster.png
+Architecture: iphoneos-arm64e
+Version: 2.1.3-2
+Installed-Size: 460
 Filename: debs/com.huayuarc.speedster_2.1.3-2_iphoneos-arm64e.deb
-Size: 59188
-MD5sum: f721c225d2f9af31f3bf6bf98330b139
-SHA1: 27b4270b067a2559170374bf8ec27a3492ff6c22
-SHA256: 944e4fe8c2aeaaf3fe9e9a67259f85243d9f0f3b5da365cedb48d1f4b4ad87d6
+Size: 53816
+MD5sum: 0df5718599c738c44ff5632376526b0e
+SHA1: ab3b52c6cd687e1c395a1cacd4e183e3e9f0068d
+SHA256: 93f8a664ff7a7f8ad26281839821a082c576e9d1aa750bcb15e53e36b5c95727
 
 Package: com.itznebbs.genesis3
 Version: 1.5
@@ -149,6 +150,22 @@ Size: 142268
 MD5sum: fdd3dcfbe6b9537a1d1277efca05851e
 SHA1: 94d2325baad3382882adb210bc3a6d7a228375b8
 SHA256: de0d63bd798b207ed280749f61788ead2339b90f0218ef7cc7a8a78a415adde4
+
+Package: com.itznebbs.phoenix
+Name: Phoenix
+Description: Collection of classes used in my tweaks.
+Maintainer: Nebbs
+Author: Nebbs
+Section: Development
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Installed-Size: 444
+Filename: debs/com.itznebbs.phoenix_1.3.2_iphoneos-arm64.deb
+Size: 57014
+MD5sum: e30be2277c940b1deba6504a147c9952
+SHA1: 0dde6508e8f8440c484aa05744720f361732df97
+SHA256: 7b51ce189f2dff8c4f71370f17e00ebd7fd7eb07fea8b79b7a6a9471844e0aff
 
 Package: com.jaysuen.evocenter
 Name: Evo Center
