@@ -283,6 +283,23 @@ MD5sum: 8c80529ac18d2dbfe77002a0a30ca8cd
 SHA1: 9feb2706e73aa2a602c5d7d0ec8bddc2890a66cb
 SHA256: 0b9445ac7ef6ed9894c8ec82776cbcd2b0ab90a508ba185258534db451e31e2b
 
+Package: com.wkk.ChoicyConfigPin
+Name: ChoicyConfigPin
+Description: 在下次打开Choicy时将已调整的 App/Process置顶到Section最顶部（本来想重新编译个Choicy最后想想还是直接hook方便）
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.0-2
+Icon:https://s1.imagehub.cc/images/2026/02/08/1238dc10ad390a948b0c6ac8c669c698.png
+Installed-Size: 168
+Filename: debs/com.wkk.ChoicyConfigPin_1.0-2_iphoneos-arm64e.deb
+Size: 5948
+MD5sum: 167a777a0fec0d47b817e4a4886f305e
+SHA1: 1f1b59c184c77b7cf3e4cef4de5fcf491892b4e0
+SHA256: 4325caaab7ce697ef143abc6eab161688b1080f0b1e219dd813bc88d52870c9b
+
 Package: com.wkk.copylogx
 Name: CopylogX
 Description: 剪贴板增强。1.1-17 使用 1.1-9 原版二进制，已中和源锁弹窗并重新伪签名，去掉重复设置入口。
