@@ -125,13 +125,13 @@ Section: Tweaks
 Depends: firmware (>=13.0), preferenceloader, mobilesubstrate
 icon: https://huayuarc.github.io/icon/Speedster.png
 Architecture: iphoneos-arm64e
-Version: 2.1.3-3
+Version: 2.1.3-2
 Installed-Size: 460
-Filename: debs/com.huayuarc.speedster_2.1.3-3_iphoneos-arm64e.deb
-Size: 54224
-MD5sum: 059018fc8ecfe884506637ea789f2fe5
-SHA1: 7269593686f68949b111c8b787896caaa8377287
-SHA256: 16a6297a941477056ef4e481b06ac5271d7ae5576cff8a897af20b09d3600aa7
+Filename: debs/com.huayuarc.speedster_2.1.3-2_iphoneos-arm64e.deb
+Size: 53816
+MD5sum: 0df5718599c738c44ff5632376526b0e
+SHA1: ab3b52c6cd687e1c395a1cacd4e183e3e9f0068d
+SHA256: 93f8a664ff7a7f8ad26281839821a082c576e9d1aa750bcb15e53e36b5c95727
 
 Package: com.itznebbs.genesis3
 Version: 1.5
