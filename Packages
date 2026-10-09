@@ -110,13 +110,13 @@ Section: Tweaks
 Depends: firmware (>=13.0), preferenceloader, mobilesubstrate
 icon: https://huayuarc.github.io/icon/Speedster.png
 Architecture: iphoneos-arm64e
-Version: 2.1.3-2
+Version: 2.1.3-3
 Installed-Size: 460
-Filename: debs/com.huayuarc.speedster_2.1.3-2_iphoneos-arm64e.deb
-Size: 53816
-MD5sum: 0df5718599c738c44ff5632376526b0e
-SHA1: ab3b52c6cd687e1c395a1cacd4e183e3e9f0068d
-SHA256: 93f8a664ff7a7f8ad26281839821a082c576e9d1aa750bcb15e53e36b5c95727
+Filename: debs/com.huayuarc.speedster_2.1.3-3_iphoneos-arm64e.deb
+Size: 54224
+MD5sum: 059018fc8ecfe884506637ea789f2fe5
+SHA1: 7269593686f68949b111c8b787896caaa8377287
+SHA256: 16a6297a941477056ef4e481b06ac5271d7ae5576cff8a897af20b09d3600aa7
 
 Package: com.itznebbs.genesis3
 Version: 1.5
@@ -168,30 +168,23 @@ SHA1: 0dde6508e8f8440c484aa05744720f361732df97
 SHA256: 7b51ce189f2dff8c4f71370f17e00ebd7fd7eb07fea8b79b7a6a9471844e0aff
 
 Package: com.jaysuen.evocenter
-Name: Evo Center
-Description: 为旧系统带来类似ios18的现代化控制中心体验。
- 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
- 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
- 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
- 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
-Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
-Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Version: 3.0.0-beta.2-ios15.2
+Architecture: iphoneos-arm64e
 Section: Tweaks
-Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 11400
 Homepage: https://eleveny123.github.io/EvoCenter/
-Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
-Depiction: https://eleveny123.github.io/EvoCenter/
-SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=3.1.0-beta.1
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Name: Evo Center
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, firmware (>= 15.0)
 Conflicts: com.jaysuen.ccflex16
 Replaces: com.jaysuen.ccflex16
-Architecture: iphoneos-arm64e
-Version: 3.1.0-beta.1
-Installed-Size: 26156
-Filename: debs/EvoCenter_3.1.0-beta.1_roothide.deb
-Size: 1237588
-MD5sum: 959ddc1a41bc52d3dbccb61b4c9c5fe0
-SHA1: 0fe1addf075172f8c36cb97260585b91159064f4
-SHA256: 6f355c5afe8206ba06f6f0abec88e38fb5b71a61bb9687dd69bd52f350e890f4
+Description: 为旧系统带来类似 ios18 的现代化控制中心体验。
+Filename: debs/com.jaysuen.evocenter_3.0.0-beta.2-ios15.2_iphoneos-arm64e.deb
+Size: 612288
+MD5sum: 356a53f54564d4488630f38e276780b8
+SHA1: 91468f8dcb9148a6453fa025623c4b790df03334
+SHA256: cb3167f3bcd95d10b12949b352ed56ac1edd04dcb25d802c5501fcd82e4a6c83
 
 Package: com.moxuan.parallelx
 Name: ParallelX
@@ -276,20 +269,37 @@ SHA1: 01714d46f6c576b5f9b7fee7e62560736d331780
 SHA256: a7ecd6e30a61ab930f05e0db774e56bc31ee7d855e5808cca95da676c8fdfe29
 
 Package: com.wkk.copylogx
-Version: 1.1-10
+Name: CopylogX（wkk）
+Description: cool！
+Maintainer: wkk
+Author: wkk
+Section: 工具
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Installed-Size: 1828
+Filename: debs/CopylogX（wkk）-1.1-9-iphoneos-arm64.deb
+Size: 273136
+MD5sum: 257634ba3d61b3916d16238923d54d24
+SHA1: 44425af08268cc4eaa52e1c25e6bbbaf7ba256a9
+SHA256: a2bbc0bc150ebf3f9b88f4771f82e2c9f3cc537e72efdbdf7ba5ec204149ade7
+
+Package: com.wkk.copylogx
+Version: 1.1-11
 Architecture: iphoneos-arm64e
 Section: Tweaks
 Maintainer: wkk
-Installed-Size: 1828
+Installed-Size: 1840
 Author: wkk
 Name: CopylogX
 Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
 Description: cool！
-Filename: debs/com.wkk.copylogx_1.1-10_iphoneos-arm64e.deb
-Size: 319546
-MD5sum: 7f85fa5c06b35cb76627b1e1a977487b
-SHA1: a1372a5b4b613eb4c7194801479bf5b242a25ee2
-SHA256: e303d929df77551fb6ed9c1be348f2d17045f12c8f9ba81d06477a858d40aa73
+Filename: debs/com.wkk.copylogx_1.1-11_iphoneos-arm64e.deb
+Size: 278940
+MD5sum: 5ea5a4459e474ecc3b68d0f7d220f2a5
+SHA1: 88e508fabd29379282e91538e8c7e2d37099efc1
+SHA256: d2063a3a16a7568f7db7f0fc1faf54e361bc9307cd679e36889d0989846151dc
 
 Package: com.wkk.crane
 Version: 1.3.17

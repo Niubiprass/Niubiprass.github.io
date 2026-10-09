@@ -24,6 +24,7 @@ Niubiprass 源 - APT 索引生成器（唯一入口）
 import os
 import sys
 import io
+import json
 import gzip
 import bz2
 import shutil
@@ -33,6 +34,7 @@ import subprocess
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DEBS = os.path.join(ROOT, "debs")
+CONFIG = os.path.join(ROOT, "update-config.json")
 # 这些目录里的 .deb 不作为仓库包收拢（构建缓存 / 版本控制元数据等）
 SKIP_DIRS = {".git", ".update-cache", "node_modules", "__pycache__"}
 
@@ -122,6 +124,20 @@ def file_hashes(path):
     return md5.hexdigest(), sha1.hexdigest(), sha256.hexdigest()
 
 
+def load_pins():
+    """读取 update-config.json 里 monitor 的 pinVersion，返回 {(package, arch): version}。"""
+    pins = {}
+    try:
+        cfg = json.load(open(CONFIG, encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return pins
+    for item in cfg.get("monitor", []):
+        ver = item.get("pinVersion")
+        if ver and item.get("package") and item.get("arch"):
+            pins[(item["package"], item["arch"])] = ver
+    return pins
+
+
 def version_gt(v1, v2):
     """v1 > v2 ?（沿用 dpkg 版本比较规则，失败时退回字符串比较）"""
     if not v1 or not v2:
@@ -140,6 +156,7 @@ def build_entries():
     同一 (Package, Architecture) 只保留版本最高的一个；
     单个包解析失败仅跳过并告警，不影响其余包。
     """
+    pins = load_pins()
     best = {}
     for fn in sorted(os.listdir(DEBS)):
         if not fn.lower().endswith(".deb"):
@@ -158,6 +175,9 @@ def build_entries():
             log(f"  ! 跳过无法解析的包 {rel}: {e}")
             continue
         key = (pkg, arch)
+        pinned = pins.get(key)
+        if pinned and ver != pinned:
+            continue
         if key in best and not version_gt(ver, best[key]["version"]):
             continue
         try:
