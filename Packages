@@ -269,23 +269,6 @@ SHA1: 01714d46f6c576b5f9b7fee7e62560736d331780
 SHA256: a7ecd6e30a61ab930f05e0db774e56bc31ee7d855e5808cca95da676c8fdfe29
 
 Package: com.wkk.copylogx
-Name: CopylogX（wkk）
-Description: cool！
-Maintainer: wkk
-Author: wkk
-Section: 工具
-Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Architecture: iphoneos-arm64
-Version: 1.1-9
-Installed-Size: 1828
-Filename: debs/CopylogX（wkk）-1.1-9-iphoneos-arm64.deb
-Size: 273136
-MD5sum: 257634ba3d61b3916d16238923d54d24
-SHA1: 44425af08268cc4eaa52e1c25e6bbbaf7ba256a9
-SHA256: a2bbc0bc150ebf3f9b88f4771f82e2c9f3cc537e72efdbdf7ba5ec204149ade7
-
-Package: com.wkk.copylogx
 Version: 1.1-11
 Architecture: iphoneos-arm64e
 Section: Tweaks
