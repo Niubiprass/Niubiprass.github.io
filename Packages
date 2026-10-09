@@ -236,18 +236,18 @@ SHA256: 38ddd8356352e5062f9b025d59e2e29071a4591deeafcbceb6c4de2f761a4d1f
 
 Package: com.ntm.notifymanager
 Name: 通知管理
-Version: 2.3.11
+Version: 2.3.21
 Architecture: iphoneos-arm64
 Maintainer: yzdmm2024
 Author: yzdmm2024
 Section: Tweaks
-Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用；2.3.16 断网修复：注入范围扩到所有 App 进程(UIApplication)，解决第三方 App 未注入导致断网不生效的问题（隐根环境需在 Bootstrap 的 App List 里为目标 App 开启注入）；2.3.17 断网修复：修正 PSAppDataUsagePolicyCache 在新系统的框架路径(SettingsCellular.framework)，并补上 CommCenter 写入签名权限，面板「断网」现在能真正把系统「允许App使用数据」设为「关闭」(WiFi+蜂窝同时切断)；2.3.18 断网修复：改用系统设置页的真实写入路径(policiesFor: → setCellular:/setWifi: → setPolicies:completion:)，此前调用的 setUsagePoliciesForBundle:cellular:wifi: 与 CoreTelephony 写入接口在 iOS 15/16/17 上均不存在，导致策略写入一直是空操作、系统设置里看不到「关闭」；2.3.19 弹窗修复：面板设为「断网」的 App，启动时不再弹国行机「允许"XX"使用无线数据」选择框——hook SpringBoard 的网络类启动弹窗评估器(SBApplicationLaunchAlertEvaluatorForNetworkBasedAlertItems -shouldShowLaunchAlertForApplication:)与展示入口(SBApplicationLaunchAlertService -showLaunchAlertOfType:forApplication:)，对断网 App 直接不展示，避免用户误点弹窗把权限改回允许导致与面板设置不一致；2.3.20 弹窗修复：开启「后台断网」的 App 回前台时也不再弹国行机「允许"XX"使用无线数据」选择框——弹窗拦截条件补上后台断网判断（NTM_netRead==1 或 NTM_bgNetOn 均拦截），并把回前台时的网络策略恢复提前到系统弹窗评估之前（hook_fg 先恢复策略再调用原函数），解决只要断网或后台断网就必弹弹窗的问题；2.3.21 弹窗修复：彻底屏蔽 CommCenter 直发的「允许"XX"使用无线数据」——实测该弹窗由 CommCenter 直接给 SpringBoard 发请求经 +[SBUserNotificationCenter dispatchUserNotification:flags:replyPort:auditToken:] 创建，并不经过 2.3.19/2.3.20 hook 的启动弹窗评估器，所以仍会漏弹；现对面板里设为「断网」或「后台断网」的 App，识别消息里的 App 名解析出 bundle id 后，直接按实测格式回一条「不允许」报文给 CommCenter，弹窗不再出现，且系统数据策略与面板保持同源、解除断网后自动恢复
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/com.ntm.notifymanager_2.3.11_iphoneos-arm64.deb
-Size: 105108
-MD5sum: e377234f0fe2b6e8c0c1e0638879b20a
-SHA1: 99bded922cca619cf1bfe5466aa8d2442920ad4d
-SHA256: e46f3db5a7831ab63f4f42ee84f743ddc78ecc0d9dfa189f8a6c7e01236c9e31
+Filename: debs/com.ntm.notifymanager_2.3.21_iphoneos-arm64.deb
+Size: 94400
+MD5sum: 8bf8f7c340d966e482dc50df83b4d091
+SHA1: 6f669fd73d77db5a8477d320c4a892214d3ecb69
+SHA256: d8a6c49a2f27851b261f3c15da16b4c98193e02ac914b69e9e6347cd77bc0fe7
 
 Package: com.opa334.choicy
 Version: 1.5.4-2
