@@ -266,6 +266,26 @@ MD5sum: 0dedc182b2896fd9d08e542d2c9a7457
 SHA1: 7f8845c8384a0cd938f06cb64637ede869a760a1
 SHA256: df5e9770c7ae6e2af4d833e73a60a6bc8d6590bd93c7485d0ecc5b7a319fe9b8
 
+Package: com.p2kdev.switchconfirm
+Name: 切换确认
+Depends: mobilesubstrate,preferenceloader,com.opa334.altlist
+Architecture: iphoneos-arm64e
+Description: 切换 App 前弹出确认提示，可指定需要确认的应用。设置页与弹窗已汉化。
+Maintainer: P2KDev <p2kdev@gmail.com>
+Author: P2KDev <p2kdev@gmail.com>
+Section: Tweaks
+Version: 1.1.3-1
+Installed-Size: 408
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.switchconfirm
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.switchconfirm/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.switchconfirm.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.p2kdev.switchconfirm_1.1.3-1_iphoneos-arm64e.deb
+Size: 31836
+MD5sum: f485cf981fe027406c75274f58188ffc
+SHA1: bd78e8c42ae01d92699dd7be7146ad3f4342bc9d
+SHA256: 689aa977cd34e92f5ac1a32ce3b931f2e8448a446028a9219114e87dd3347da0
+
 Package: com.susudear.screencore
 Name: ScreenCore
 Description: 分屏而已

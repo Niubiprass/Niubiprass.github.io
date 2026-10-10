@@ -40,7 +40,9 @@
     { "package": "com.ntm.notifymanager",              "arch": "iphoneos-arm64" },
     { "package": "com.itznebbs.genesis3",              "arch": "iphoneos-arm64" },
     { "package": "com.itznebbs.genesis3statusbar",     "arch": "iphoneos-arm64" },
-    { "package": "com.aptzh",                          "arch": "iphoneos-arm64e" }
+    { "package": "com.aptzh",                          "arch": "iphoneos-arm64e" },
+    { "package": "com.p2kdev.switchconfirm",           "arch": "iphoneos-arm64e",
+      "locked": true, "lockedNote": "本地汉化版 1.1.3-1：设置页与弹窗已汉化并 ldid 伪签名，禁止外部源覆盖" }
   ],
 
   "autoAdd": [
@@ -53,7 +55,8 @@
       "com.huayuarc.speedster — 作者源已无此包（huayuarc 源现无 Speedster）",
       "com.jaysuen.evocenter — 已锁定并钉死 3.0.0-beta.2-ios15.2，禁止作者源覆盖",
       "com.ntm.notifymanager — 你的 2.3.11 比作者 GitHub 2.3.8 新",
-      "com.aptzh — Sileo 汉化，群内分发无公开源"
+      "com.aptzh — Sileo 汉化，群内分发无公开源",
+      "com.p2kdev.switchconfirm — 本地汉化版 1.1.3-1，禁止作者源覆盖"
     ],
     "havoc_bigboss": "havoc.app / thebigboss 在本沙箱网络不通，需在 GitHub Actions(美国节点)或本地直连；GitHub Actions 中会正常抓取"
   }
