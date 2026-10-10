@@ -46,6 +46,28 @@ MD5sum: 166459fe1e28902af2ca1c6646b7f768
 SHA1: 55695bfceb13ecf6852eba83aea60d98cefa3114
 SHA256: 7ca02cce9e992551914a8d6e0e5094dafe3983e2926c8a9650338bc46f1adad2
 
+Package: com.axs.ahsfilter
+Name: AhsFilter
+Description: 爱回收助手：点击悬浮球只开面板、长按悬浮球或点「开始爬取」才按关键词直连严选接口翻页抓全（不依赖 App 是否加载过列表）。
+ * 1.自动补全系统版本/电池效率/充电次数等机况，列表带序号
+ * 2.按机型/内存/成色/电池/价格/系统版本区间筛选
+ * 3.复制单条或全部详情链接，并可在 App 内直接打开对应商品详情页
+ * 4.数据仅保存在本机沙盒，不上传任何内容
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 5.2.0-3
+Installed-Size: 712
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/ahsfilter.jpg
+Filename: debs/com.axs.ahsfilter_5.2.0-3_iphoneos-arm64e.deb
+Size: 124660
+MD5sum: aea7b8a2ecb9362199602e4cc7e130e3
+SHA1: 6b400f139a5efd3c4b2a0392774d6d97c632ca2a
+SHA256: f08a861573e52c27217f12043d7952435049b1b21f7b5439413ccaa996c29ec5
+
 Package: com.be-huge.floating-view
 Name: floatingView
 Description: 分屏，不必太复杂，一切从简即可。
