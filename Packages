@@ -85,6 +85,22 @@ MD5sum: cba48e5bea1e58f68bdb28b3b73e4c23
 SHA1: 0036b0f68922138498230c48df959572383a651a
 SHA256: 7ebdbc67e7d398d824996928358c051d29eb5085e61865b96d23b52dde23fab4
 
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.38.1
+Installed-Size: 780
+Filename: debs/com.be-huge.insulation_0.1.38.1_iphoneos-arm64e.deb
+Size: 57024
+MD5sum: 548758f431fed3ae2df216bb491d6c62
+SHA1: fd40899f9d37489c30a01a79d245d80c20af9f45
+SHA256: 75d9920232145bae39c8a3217091e8cb3dec60d0074df265fbfa86a7d44e19c9
+
 Package: com.bvm.wuzeililiang
 Name: 乌贼本地离线授权
 Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
