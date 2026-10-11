@@ -118,6 +118,22 @@ MD5sum: 04a86be5dacc7b092396fad0149d354a
 SHA1: 0d3bae08a3d9b5f513e194124fdfc45438385d2b
 SHA256: d74a79f75baae62cf7514a781c9884e5c980c2b5187ca30da3319315710d03be
 
+Package: com.crctdd.choicy-patch
+Name: Choicy Patch
+Description: 给Choicy增加已设置置顶 / 进程页面本地缓存。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, com.opa334.choicy (>= 1.4), com.opa334.altlist (>= 1.0.4)
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 96
+Filename: debs/com.crctdd.choicy-patch_0.0.2_iphoneos-arm64e.deb
+Size: 13342
+MD5sum: ff5474b5214367a8a9d5dd796853f4c8
+SHA1: 867684810d26bf47a051cdf68c08cb593b111d46
+SHA256: 62cceb0fd744056a193957923b665d19a983b5936d3b05a9a476d7d019817836
+
 Package: com.crctdd.sbtrim
 Name: SBTrim
 Description: 当SpringBoard的Phys占用阈值超过一定数值，自动轻量优化回收。(支持iOS 15-17)
