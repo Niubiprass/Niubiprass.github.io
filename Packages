@@ -118,6 +118,22 @@ MD5sum: 04a86be5dacc7b092396fad0149d354a
 SHA1: 0d3bae08a3d9b5f513e194124fdfc45438385d2b
 SHA256: d74a79f75baae62cf7514a781c9884e5c980c2b5187ca30da3319315710d03be
 
+Package: com.crctdd.sbtrim
+Name: SBTrim
+Description: 当SpringBoard的Phys占用阈值超过一定数值，自动轻量优化回收。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.15
+Installed-Size: 524
+Filename: debs/com.crctdd.sbtrim_0.0.15_iphoneos-arm64e.deb
+Size: 73022
+MD5sum: 0d5b656fc9e24bc5a386c51be26407a1
+SHA1: 6eba604d3fed08474758db7bd72ddcd41dfb66a9
+SHA256: 2339320c5fb22abe8142510dda562070b0e85703a74acc98c75d33c427908b50
+
 Package: com.go.mango
 Name: mango（免授权）
 Description: 为 iPhone 补上分屏与多任务能力：手势呼出分屏、液态玻璃毛玻璃视觉、底部弹层与多选浮层、应用库搜索与 Dock、横幅与时钟组件等，全部功能可在设置面板中逐项开关。本插件仅供个人学习研究与测试使用，安装即视为自愿承担风险，作者不对任何使用后果负责。
