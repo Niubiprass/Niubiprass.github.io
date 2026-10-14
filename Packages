@@ -30,6 +30,22 @@ MD5sum: e1023f170db3e69f5e67fc17f0dda55b
 SHA1: 8acb7a6dec52942fdf6eb45b4d148cd8ba910007
 SHA256: 09a845e849044786843abf48e676855dee9dd18ea92f765c03f4a251210d4531
 
+Package: com.82flex.colorsubstitute
+Name: ColorSubstitute
+Description: An awesome MobileSubstrate tweak!
+Maintainer: 82Flex <82flex@gmail.com>
+Author: 82Flex <82flex@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.1
+Installed-Size: 168
+Filename: debs/com.82flex.colorsubstitute_0.1_iphoneos-arm64e.deb
+Size: 3646
+MD5sum: 449127f4495118d0600fc7c00f1dc908
+SHA1: ff9134ebcd2b1c117f83e5658a3f10632b0820f9
+SHA256: 40b8fbd4fa95221ebb79e2b32bc1c15b1e632109e0770a1ca56e494417bc4078
+
 Package: com.aptzh
 Name: Sileo APT/DPKG汉化
 Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
