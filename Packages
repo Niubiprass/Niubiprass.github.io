@@ -296,13 +296,13 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 16.0)
 Conflicts: com.m4fn3.myrtle, com.moxuan.myrtleswitcherfix, com.moxuan.moxuansplit
 Architecture: iphoneos-arm64e
-Version: 0.1.0~alpha292
-Installed-Size: 1164
-Filename: debs/com.moxuan.parallelx_0.1.0~alpha292_iphoneos-arm64e.deb
-Size: 298896
-MD5sum: a30929b614a51593c37077276b10ca4c
-SHA1: d2965d2145b93a5a50c1bfecca87e63f1456ee54
-SHA256: c96994d9dc87f40fddbc58fe9361c276a6827ae7f0a7626240d2edbbb2677e0f
+Version: 0.1.0~alpha321
+Installed-Size: 1184
+Filename: debs/com.moxuan.parallelx_0.1.0~alpha321_iphoneos-arm64e.deb
+Size: 309722
+MD5sum: d43012c0010db85b8206394905f71f8f
+SHA1: b3420f1c83f809701090ddc1f5f949b384bca781
+SHA256: 5cecdfff269b5855fb07b84052ef5994bb8ff8724630842232c79327343dfd81
 
 Package: com.moxuan1121.clipboard
 Name: clipboard
