@@ -30,6 +30,24 @@ MD5sum: e1023f170db3e69f5e67fc17f0dda55b
 SHA1: 8acb7a6dec52942fdf6eb45b4d148cd8ba910007
 SHA256: 09a845e849044786843abf48e676855dee9dd18ea92f765c03f4a251210d4531
 
+Package: cn.zqbb.hello.memorystatus
+Description: Set memorystatus to avoid being killed by the system
+Maintainer: zqbb
+Author: zqbb
+Name: Hello Memory Status
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, launchctl
+Section: zqbb Tweaks
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
+Architecture: iphoneos-arm64e
+Version: 3.9.0-6
+Installed-Size: 11476
+Filename: debs/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e.deb
+Size: 3067422
+MD5sum: 2e7492c9d464414ae9b606a96ac53321
+SHA1: 155a8815d4ed6815522393c6a9136dc118ff40f4
+SHA256: 97b86c1b2a5128670765e5f0b658171f6fec522d90c5b242570351ce46378c2b
+
 Package: com.82flex.colorsubstitute
 Name: ColorSubstitute
 Description: An awesome MobileSubstrate tweak!
