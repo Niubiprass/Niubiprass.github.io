@@ -152,6 +152,22 @@ MD5sum: 04a86be5dacc7b092396fad0149d354a
 SHA1: 0d3bae08a3d9b5f513e194124fdfc45438385d2b
 SHA256: d74a79f75baae62cf7514a781c9884e5c980c2b5187ca30da3319315710d03be
 
+Package: com.crctdd.autocopyverify
+Name: Auto Copy Verify
+Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板，第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 300
+Filename: debs/Auto Copy Verify-0.0.3-iphoneos-arm64e.deb
+Size: 36576
+MD5sum: e8b72157b42b605ec2861dea9657d342
+SHA1: 5d9bd4856a8385d419eb060f3874a3647186a595
+SHA256: 748ce2829405a704cb4478808a3cd232bfea72bce1fab46648b01fdc9f47483e
+
 Package: com.crctdd.choicy-patch
 Name: Choicy Patch
 Description: 给Choicy增加已设置置顶 / 进程页面本地缓存。(支持iOS 15-17)
@@ -337,6 +353,23 @@ Size: 58816
 MD5sum: 21f9acea6a7f5e18669ece95b5a46c8c
 SHA1: 2b718c1b8baa92e0c94f51cfdc4e45092171cd17
 SHA256: 38ddd8356352e5062f9b025d59e2e29071a4591deeafcbceb6c4de2f761a4d1f
+
+Package: com.netskao.filzacrack
+Name: Filza Crack
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Filza Crack
+Maintainer: Nets
+Author: Netskao
+Section: Netskao-Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Installed-Size: 120
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/Filza Crack-1.1-9-iphoneos-arm64e.deb
+Size: 29372
+MD5sum: 5798ff27e050576be10bb790f9c38936
+SHA1: 8709ddaf1c86250dea271115f721a0a8bc08efc5
+SHA256: 002b20fbe93bc4ee706933ccc57a6cd346532d2eda753293c31eb4413f8fe1e0
 
 Package: com.ntm.notifymanager
 Name: 通知管理
@@ -535,6 +568,27 @@ Size: 598940
 MD5sum: 55729dccd5a3ab6195eec191c3c2d172
 SHA1: def30cc38eff9fca937f257bdc5d02c182cfd966
 SHA256: 9128e0f74f49fcc77129373b4c60b672766b5085579c81c43bc2b4b83dee2a8b
+
+Package: com.tigisoftware.filza64bits
+Name: Filza 文件管理器
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.tigisoftware.filza64bit
+Description: Filza 文件管理器 RootHide 专用
+ * 支持 RootHide Dopamine、BootStrap 半越狱
+ * 支持解压打包 deb 插件
+Maintainer: TIGI Software
+Author: TIGI Software
+Section: RootHide
+Architecture: iphoneos-arm64e
+Version: 4.0.1-4~roothide
+Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
+Filename: debs/Filza 文件管理器-4.0.1-4~roothide-iphoneos-arm64e.deb
+Size: 6970916
+MD5sum: 46bbea1723b62c27e10810562042539e
+SHA1: d2a6995632fee7c65f645e935ffd5cdfda8e5fd0
+SHA256: 4d86696f88752f031d455c6532041c01f6facec1e37a73eec15a3c0ec0f43f7b
 
 Package: com.wkk.ChoicyConfigPin
 Name: ChoicyConfigPin
