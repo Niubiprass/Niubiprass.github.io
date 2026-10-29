@@ -638,6 +638,22 @@ MD5sum: 80b96ff57b0f522bc8ad16ab38382ae3
 SHA1: 51a3044f59785d92cd0e4cd891cf3a0041940132
 SHA256: a7fead9e61f56cdb005ca9d43d8c1cbea22dec6151a3ac296b77cab2aa636a04
 
+Package: dev.mineek.appstoretroller
+Name: appstoretroller
+Description: An awesome MobileSubstrate tweak! 将设置移至桌面AppStore长按快捷菜单
+Maintainer: iosdump
+Author: Mineek
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.2-2+debug
+Installed-Size: 176
+Filename: debs/appstoretroller-0.0.2-2+debug-iphoneos-arm64e.deb
+Size: 13348
+MD5sum: cb20af0d715be02fcd4230587f7b9944
+SHA1: 7c811ca235ae2cbc3b5cbc2bbfd290a4d52b706e
+SHA256: dae191e72a68987c8e7c6ec2069d1cd118418e33af20563a6d2f539b881f65d1
+
 Package: preferenceloader.top
 Description: load preferences in style
 Maintainer: ProcursusTeam <support@procurs.us>
@@ -656,3 +672,22 @@ Size: 15098
 MD5sum: b94427c4db4fe7243753c4e93eae0eb6
 SHA1: b7909746ad52e04460ba9a01eb2d52aff67d1cf4
 SHA256: 35f3342791e766bcf034cd2f29200ab8e6be5bcf7ef253e1cc4a3a462bbb9172
+
+Package: roothide.patches.filza
+Name: Patches for Filza 64bit
+Description: RootHide Dynamic Patches For Filza
+Maintainer: roothide
+Author: roothide
+Section: RootHide Patches
+Depends: com.roothide.patchloader
+Provides: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Recommends: com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Conflicts: com.tigisoftware.filza64bit(>> 4.0.1-4~roothide), com.tigisoftware.filza64bit(<< 4.0.1-4~roothide)
+Architecture: iphoneos-arm64e
+Version: 0.6-1
+Installed-Size: 284
+Filename: debs/Patches for Filza 64bit-0.6-1-iphoneos-arm64e.deb
+Size: 36152
+MD5sum: 5b86e8a09e6e4b703495d064a17ea358
+SHA1: 73bbdfcc347db7ce7a5516bfd5fef9f52fa682fb
+SHA256: e2793dbcd4e2cdc6aaa4eea5787430b2330d997013aba423584f4591bf9dc752
