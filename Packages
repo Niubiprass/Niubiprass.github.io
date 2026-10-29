@@ -590,6 +590,25 @@ MD5sum: 46bbea1723b62c27e10810562042539e
 SHA1: d2a6995632fee7c65f645e935ffd5cdfda8e5fd0
 SHA256: 4d86696f88752f031d455c6532041c01f6facec1e37a73eec15a3c0ec0f43f7b
 
+Package: com.witchan.ios-mcp
+Name: iOS MCP (RootHide)
+Provides: com.witchan.iphone-mcp
+Conflicts: com.witchan.iphone-mcp
+Replaces: com.witchan.iphone-mcp
+Depends: mobilesubstrate, preferenceloader
+Description: MCP server for AI-driven iOS device control. Supports HID buttons, touch, screenshots, clipboard, app management, accessibility tree, and text input.
+Maintainer: witchan
+Author: witchan
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.8
+Installed-Size: 40804
+Filename: debs/iOS MCP (RootHide)-1.2.8-iphoneos-arm64e.deb
+Size: 23636120
+MD5sum: 9f5a0ced87d586efa0db0eb582ba7c97
+SHA1: 3fc3500b27742e10835674bec8528bd7bc7c645a
+SHA256: e5a99328f6454f070460204c807e0bc39a18d44426473df16157377de8ac2e30
+
 Package: com.wkk.copylogx
 Name: CopylogX
 Description: 剪贴板增强。1.1-17 使用 1.1-9 原版二进制，已中和源锁弹窗并重新伪签名，去掉重复设置入口。
