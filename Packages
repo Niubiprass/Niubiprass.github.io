@@ -217,6 +217,23 @@ MD5sum: 1619e922c936cad889db9b7542a4fac9
 SHA1: 1b19a263074a3156124c4866aedeb6b0846cc329
 SHA256: f5ac4a4aacc556b2bb7e597a6ad77e6364e7565e0c86538f58dc58a81c2ab4a2
 
+Package: com.guacforlife.reynarddefault
+Name: ReynardDefault
+Description: Redirects Safari URL opens to Reynard browser. Toggle in Settings and Control Centre.
+Maintainer: guacforlife
+Author: guacforlife
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Homepage: https://github.com/guacforlife/ReynardDefault
+Architecture: iphoneos-arm64e
+Version: 1.5.1
+Installed-Size: 592
+Filename: debs/com.guacforlife.reynarddefault_1.5.1_iphoneos-arm64e.deb
+Size: 77698
+MD5sum: 9b602af586d17f3aca8b20f1209312d7
+SHA1: 74cdd64f4e966f6b6cb288d54b3771540d7b0704
+SHA256: e8f2755273420179a98940891490a78a525cc2a2f5ac71e423885244e7e4b802
+
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
 Author: 391160
