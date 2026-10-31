@@ -613,6 +613,22 @@ MD5sum: 55729dccd5a3ab6195eec191c3c2d172
 SHA1: def30cc38eff9fca937f257bdc5d02c182cfd966
 SHA256: 9128e0f74f49fcc77129373b4c60b672766b5085579c81c43bc2b4b83dee2a8b
 
+Package: com.t4mag0.safarimodernizer
+Name: SafariModernizer
+Description: Unofficial iOS 15.5 / RootHide compatibility rebuild of upstream 1.0.1. Makes newer websites work and look modern in Safari on iOS 15. Adds modern JavaScript and web features, rewrites modern CSS, works around Safari 15 security-policy bugs, runs sites that need import maps, and identifies as Safari 18.6 so sites send their modern pages. Hold two fingers on a page for 2 seconds (or add #smdebug to the address) to open the log and per-site settings.
+Maintainer: T4MAG0
+Author: T4MAG0
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 16.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.1+ios15.5.rh3
+Installed-Size: 800
+Filename: debs/com.t4mag0.safarimodernizer_1.0.1+ios15.5.rh3_iphoneos-arm64e.deb
+Size: 192458
+MD5sum: 9765aaeba2d9f48c82ac12ff3bd4d877
+SHA1: 32dfe3f714ea7882a8f724795bde0cd204e86f6b
+SHA256: 9c52a336ffd1aa81877d7f618a4b619610391906d622f8e9cf5b57dd0b5f3674
+
 Package: com.tigisoftware.filza64bits
 Name: Filza 文件管理器
 Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
