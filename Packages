@@ -388,6 +388,22 @@ MD5sum: 5798ff27e050576be10bb790f9c38936
 SHA1: 8709ddaf1c86250dea271115f721a0a8bc08efc5
 SHA256: 002b20fbe93bc4ee706933ccc57a6cd346532d2eda753293c31eb4413f8fe1e0
 
+Package: com.niubiprass.particlex
+Name: ParticleX
+Description: Original-color notification and widget dust, and particles inside native Control Center sliders. iOS 15.5.
+Maintainer: Niubiprass
+Author: Niubiprass
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.0dev12
+Installed-Size: 628
+Filename: debs/com.niubiprass.particlex_0.1.0dev12_iphoneos-arm64e.deb
+Size: 92858
+MD5sum: a069ffc7424c2573b320f100dca94982
+SHA1: bb9051557bcb7064f6f6b8daec11b40f5bce3b57
+SHA256: 75c479374ae1aeb4ec4ce080a42895f57c3baad3b8a5edb5ee916e9686cfa3d3
+
 Package: com.ntm.notifymanager
 Name: 通知管理
 Version: 2.3.50
