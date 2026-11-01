@@ -126,14 +126,14 @@ Maintainer: doimty
 Author: be-huge & doimty
 Section: Tweaks
 Depends: firmware (>= 15.0)
-Architecture: iphoneos-arm64e
-Version: 0.1.38.1
 Installed-Size: 780
-Filename: debs/com.be-huge.insulation_0.1.38.1_iphoneos-arm64e.deb
-Size: 57024
-MD5sum: 548758f431fed3ae2df216bb491d6c62
-SHA1: fd40899f9d37489c30a01a79d245d80c20af9f45
-SHA256: 75d9920232145bae39c8a3217091e8cb3dec60d0074df265fbfa86a7d44e19c9
+Version: 0.1.38.1-rh5
+Architecture: iphoneos-arm64e
+Filename: debs/com.be-huge.insulation_0.1.38.1-rh5_iphoneos-arm64e.deb
+Size: 56972
+MD5sum: feeefdff68050aa3e5650638c0649222
+SHA1: 102319d9975006644ae2f7b6d440bfb1b321383f
+SHA256: 33a3dc00ef32038befe71c6f51270277deb4e4722e4b6ef1043c0106dc73b9c6
 
 Package: com.bvm.wuzeililiang
 Name: 乌贼本地离线授权
