@@ -458,150 +458,21 @@ SHA1: bd78e8c42ae01d92699dd7be7146ad3f4342bc9d
 SHA256: 689aa977cd34e92f5ac1a32ce3b931f2e8448a446028a9219114e87dd3347da0
 
 Package: com.susudear.screencore
-Name: screencore-窗口调度版
-Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
- 作者：kanuo；版本：windowscheduler.12-12。
- 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
- 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
- .
- 功能与快捷操作：
- 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
- 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
- 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
- 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
- App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
- 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
- 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
- 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
- .
- 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
- 完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
- 安装后重启桌面。
- 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
- 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
- App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
- 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
- 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
- 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
- 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
- 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
- 长按收藏 App 原地松手打开自由独立窗口，不受普通浮窗数量、单窗口替换或自动边缘停靠限制。
- 独立窗口沿用分屏比例，不依赖 App 跳转弹窗开关；普通切换保留它，同 App 复用原窗口。
- 保留放大退出修复、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
- 设置新增移除底部系统 Dock 开关，默认关闭，更改立即生效；不影响键盘或应用内底栏。
- 保留长按独立窗口、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
- 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
- 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
- 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
- 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
- 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
- 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
- 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
- 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
- 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
- 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
- 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
- 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
- 修复键盘图层或承载窗口晚到时显示接入丢失，以及不可见原生宿主误接管造成的键盘空白。
- 就绪恢复限定当前小窗及原版键盘显示请求，收起和切换取消旧重试；保留输入框避让与正常切换速度。
- 新增 5:3 普通分屏比例，沿用 16:9 的键盘显示与输入框避让流程。
- 同步应用画布、全屏交接和退出还原；跳转小窗保持原始比例，其他功能基于 .12-13。
- 移除 4:3，保留原始比例、16:9、5:3；旧 4:3 设置自动迁移为 5:3。
- 切换比例不再自动注销，确认后关闭并重新打开普通小窗生效；已打开小窗保持自己的比例。
- 保留原设置保存及同步通知、手动注销、键盘与输入框避让和悬浮球适配。
- 左右侧边向内滑动可实时临时放大，松手平滑恢复；侧边滑动替代移动。
- 新增放大灵敏度滑条 1–8，默认 2；显示宽高分别不超过屏幕对应尺寸的 4 倍。
- 保留 .12-17 的比例免注销、原有键盘避让、悬浮球适配和启动保护。
- 底部向上滑动松手将小窗临时收进灵动岛，保留原应用会话。
- QuickLaunch 圆形菜单未成全圆时松手立即恢复上次收起窗口；曾成全圆则保持原选 App 逻辑。
- 进出带缩放、位移和淡入淡出；保留 .12-18 侧边临时放大及原有键盘与悬浮球适配。
- QuickLaunch 按实际成圆状态判断快速呼出，扩大未成圆松手的可用范围。
- 记录上次成功打开的 App，底部点击关闭后仍可重新呼出；已有窗口复用。
- 保留原有键盘、悬浮球、灵动岛动画及启动失败保护，不增加固定等待。
- 底部点击和上滑统一收进灵动岛后执行原生关闭，结束隐藏小窗托管。
- 仅快速呼出使用灵动岛起点，其他入口保留 .12-17 原生出入场；保留键盘、悬浮球与启动失败保护。
- 新增 16:10、18:10 普通分屏比例，沿用 16:9 键盘显示、输入框避让及收起还原。
- 同步真实应用画布、全屏输入和退出尺寸恢复；切换比例免注销，已有小窗保留原比例。
- 保留 .12-21 灵动岛动画范围，其他出入场动画、键盘兼容和悬浮球适配保持原有实现。
- 恢复原有浮窗柔和阴影，硬黑边改为底部聚焦的柔和投影；聚焦阴影深浅 0–100%，默认 40%。
- 新增实时圆角半径滑条 0–60，默认 24；全屏保持直角，支持缩放与返回小窗。
- 保留 .12-22 全部窗口比例、键盘避让、悬浮球及原有动画范围。
- 文件分享等待接收小窗画面和入场就绪再投递，复用已打开目标窗口，避免普通启动覆盖分享页面。
- 保留文件 URL、Actions、沙盒授权和回调；启动失败完整请求回退系统打开一次。
- 保留 .12-24 键盘避让、快捷栏、悬浮球、窗口动画、比例、阴影和圆角设置。
- 新增点击顶部通知横条用小窗打开开关，默认关闭、即时生效，独立于 App 跳转弹窗。
- 保留系统通知跳转动作、来源及回调；复用已打开小窗，启动失败回退系统一次。
- 保留 .12-25 分享修复、键盘避让、快捷栏、悬浮球、动画、比例及阴影设置。
- 修复分享、通知启动等待期间的系统栈回调生命周期，避免延迟交付导致 SpringBoard 安全模式。
- 保留通知小窗开关、文件分享及此前功能；安装后重新启动 SpringBoard 生效。
- .12-28 修正此前通知独立小窗行为：横幅通知改用所选比例的普通分屏，遵循窗口数量及单窗口模式。
- 原版通知分屏开关与调度通知开关均可启用；通知不再创建原始比例跳转小窗，文件分享保留独立小窗。
- 保留 .12-27 回调生命周期修复、启动失败保护及原有键盘、快捷栏、悬浮球和动画；安装后重新启动 SpringBoard。
-Maintainer: kanuo
-Author: kanuo
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Architecture: iphoneos-arm64e
-Version: 2.1.0
-Installed-Size: 3582
-Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
-Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
-X-Window-Scheduler-Version: 0.1.6
-X-Window-Scheduler-Author: kanuo
-X-Rollback-Base-Version: 2.0.3+windowscheduler.7
-X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
-X-Floating-Ball-Bridge-Version: 0.3.0
-X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
-X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
-X-Release-Base-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
-X-Core-Identity-Revision: expected-author-kanuo.1
-X-Scene-Geometry-Recovery: native-close-16x9.1
-X-Geometry-Base-SHA256: 619767fdd4d744203cef45ca1d5cd370b5f9a5521850034a21ddf3523a7c2701
-X-Native-Jump-Geometry: popup-only-native-size.1
-X-Native-Jump-Base-SHA256: 2bc5d7e4c7c8ab8b0fe6117bc5fbd98a784701d429016984ce6a570ac54b131e
-X-Keyboard-Compatibility: scene-identity-and-bounded-readiness.2
-X-Keyboard-Base-SHA256: 19a90341e8511ab23a40f8f1ca23d3410a72cac82690501f9b7924bf3f33ef3b
-X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
-X-Fullscreen-Exit-Base-SHA256: 2dbe5dde47fdac2b813d9cb27434286885af7e29ee8b6f783a5ea86557fe9a58
-X-Favorite-Standalone: independent-policy-normal-split-geometry.1
-X-Favorite-Standalone-Base-SHA256: c09cf505d87431c352c80b52dfdf435801a3422b77cd0ee875ab481e35e55b34
-X-Fullscreen-Native-Canvas: physical-screen-reversible-queued-geometry.1
-X-Fullscreen-Base-SHA256: 60dcbb8f1b3dd67d1b0e8e6ba861883515b9dc279ba1fe805acc156d7bba5270
-X-Fullscreen-Rendered-Canvas: instance-settings-hosted-resize-ack-validation.1
-X-Fullscreen-Rendered-Base-SHA256: e68c9aa0f0da74a9601ef610ef3db3e9ef6a29042b7a60ea3c7ae24235bd45ba
-X-Native-Fullscreen-Return: native-promotion-scoped-nonkey-icon.1
-X-Native-Fullscreen-Base-SHA256: 52c3ba9af8bb6d2b7dd5c42428ff7f73b3ab48518d2d56448a732f0804c5ead3
-X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
-X-Native-Fullscreen-Canvas-Handoff: atomic-hosted-resize.1
-X-Native-Fullscreen-Scene-State: scoped-input-layout.1
-X-Aspect-Ratio: native,16:9,5:3,16:10,18:10; per-session-canvas.1
-X-Aspect-Ratio-Base-SHA256: 5ec1fc7e5e318cb821f4054b1896b3a076767057c0322a0c308c73496ce3f2f5
-X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
-X-Edge-Peek-Base-SHA256: e6162a232679122468fd9b044c146b80a70012c13528653b959898661e62f034
-X-Island-Return: quicklaunch.partial-circle.release-only.live-layer.1
-X-Island-Return-Base-SHA256: 74085fb00c17c77e682898c612f5f0b81a6c11b1d9785a45a3c8082ee25e43d9
-X-Quick-Recall: visual-circle.release-only.last-successful-app.closed-reopen.1
-X-Quick-Recall-Base-SHA256: 75ab5199f8dcef7fa67d1a2d80e829afebae527a013e572cc00d12b64556a47d
-X-Island-Native-Close: tap.upward.native-close.island-reentry.1
-X-Island-Native-Close-Base-SHA256: 7b353b2ddf77e44670048e23343c25a17e2ee0bb95925952ae23e4d82f24aa3c
-X-Window-Frame: focused-shadow.opacity0-100.live-radius0-60.2
-X-Window-Frame-Base-SHA256: ee3347687d22acc4906f7780f980aeab2098073457fa7f33cb4e46862cd3285a
-X-Window-Shadow: native-shadow-preserved.with-bottom-focused-shadow.2
-X-Share-Handoff: host-ready.single-native-request.reuse-existing.failure-fallback.1
-X-Share-Handoff-Base-SHA256: 48e538e0e85410939a9b0b482eb8a74993b11b15fb36a9ee0367c1938c93b0ef
-X-Notification-Popup: banner-only.default-off.live.independent.host-ready.native-payload.1
-X-Notification-Popup-Base-SHA256: 441cc97916c58e49a53b4e87410555286f4c0a7b594966bdf92bfa18937d569f
-X-Callback-Lifetime: copy-native-completion.copy-queued-delivery.once.release.1
-X-Callback-Lifetime-Base-SHA256: 6e9f45ba8884516854ad6feba846af29a507183a513d1807b267faa5d3aa53f2
-X-Notification-Split: ordinary.selected-ratio.native-pref.limits.original-animation.host-ready.1
-X-Notification-Split-Base-SHA256: e1076fd5d1882c5114f516f118049a3e2fbe3a23c3e03c4b5057b6f06b8a4788
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
-Filename: debs/com.susudear.screencore-2.1.0-roothide.deb
-Size: 598940
-MD5sum: 55729dccd5a3ab6195eec191c3c2d172
-SHA1: def30cc38eff9fca937f257bdc5d02c182cfd966
-SHA256: 9128e0f74f49fcc77129373b4c60b672766b5085579c81c43bc2b4b83dee2a8b
+Version: 2.0.3
+Installed-Size: 2964
+Filename: debs/ScreenCore-2.0.3-iphoneos-arm64e.deb
+Size: 464978
+MD5sum: 8c80529ac18d2dbfe77002a0a30ca8cd
+SHA1: 9feb2706e73aa2a602c5d7d0ec8bddc2890a66cb
+SHA256: 0b9445ac7ef6ed9894c8ec82776cbcd2b0ab90a508ba185258534db451e31e2b
 
 Package: com.t4mag0.safarimodernizer
 Name: SafariModernizer
