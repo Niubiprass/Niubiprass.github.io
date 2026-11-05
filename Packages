@@ -420,48 +420,6 @@ MD5sum: a069ffc7424c2573b320f100dca94982
 SHA1: bb9051557bcb7064f6f6b8daec11b40f5bce3b57
 SHA256: 75c479374ae1aeb4ec4ce080a42895f57c3baad3b8a5edb5ee916e9686cfa3d3
 
-Package: com.ntm.notifymanager
-Name: 通知管理
-Version: 2.3.50
-Architecture: iphoneos-arm64
-Maintainer: yzdmm2024
-Author: yzdmm2024
-Section: Tweaks
-icon: https://huayuarc.github.io/icon/notifymanager.png
-Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
- 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
- 空闲时不耗电；不在后台常驻任何进程。
- .
- 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
- （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
- - 总开关：关闭后该 App 的通知不再显示
- - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
- - 隐藏预览：只显示 App 名称，不显示具体内容
- - 仅隐藏角标：保留通知，只去掉数字角标
- - 关键词过滤：命中关键词的通知自动丢弃
- .
- 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
- - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
- - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
- - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
- - 不需要拦截时可一键关闭，恢复系统原生选择框
- .
- 【其他】
- - 批量控制、搜索、单应用重置、配置导入导出
- - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
- - 面板内置诊断日志，可查看弹窗拦截的命中情况
- .
- 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
- iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
- 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Firmware: >= 14.0
-Filename: debs/com.ntm.notifymanager-2.3.50-rootless.deb
-Size: 109592
-MD5sum: 9916849edacd38900f813d3eff2cdf85
-SHA1: f5ae1a5d7a9f0e50fa7825324ea84baaa4f10f6c
-SHA256: b54d357c31c5fd7b9d2fe0d1e36d8cc6b90b1ac4428aac560e3ab92eab18ca02
-
 Package: com.opa334.choicy
 Name: Choicy
 Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
