@@ -338,6 +338,22 @@ MD5sum: 356a53f54564d4488630f38e276780b8
 SHA1: 91468f8dcb9148a6453fa025623c4b790df03334
 SHA256: cb3167f3bcd95d10b12949b352ed56ac1edd04dcb25d802c5501fcd82e4a6c83
 
+Package: com.local.cleanstatus
+Name: CleanStatus
+Description: Status icon visibility and inline battery controls for iOS 15.5
+Maintainer: Niubiprass
+Author: Niubiprass
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.5)
+Architecture: iphoneos-arm64e
+Version: 0.1.8
+Installed-Size: 196
+Filename: debs/com.local.cleanstatus_0.1.8_iphoneos-arm64e.deb
+Size: 31692
+MD5sum: ecf769695d9d8b757d9955ee9bc75591
+SHA1: bc3fa1d5a9d4d36e5171cc2cd1546235cd1e53b5
+SHA256: 66de5fff34aaab4b43b9feed054157431b62f7eda9f947681dc81e0edd53a5d2
+
 Package: com.moxuan.parallelx
 Name: ParallelX
 Description: Minimal iOS 15 RootHide floating app window with a Swift side panel.
