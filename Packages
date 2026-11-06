@@ -404,6 +404,22 @@ MD5sum: 5798ff27e050576be10bb790f9c38936
 SHA1: 8709ddaf1c86250dea271115f721a0a8bc08efc5
 SHA256: 002b20fbe93bc4ee706933ccc57a6cd346532d2eda753293c31eb4413f8fe1e0
 
+Package: com.niubiprass.minisight
+Name: MiniSight
+Description: 显示 Minis 是否正在操作手机
+Maintainer: niubiprass
+Author: niubiprass
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.8.0
+Installed-Size: 384
+Filename: debs/com.niubiprass.minisight_0.8.0_iphoneos-arm64e.deb
+Size: 106640
+MD5sum: 9a13a375266d83fc233f8da9affaef00
+SHA1: b45c5faf82e6b88b1043eeee374a622a4d1d700d
+SHA256: 39b3263bdb9ff5678b7069541434985427b90b327ca7ca4172d58d31cd988f9a
+
 Package: com.niubiprass.particlex
 Name: ParticleX
 Description: Original-color notification and widget dust, and particles inside native Control Center sliders. iOS 15.5.
