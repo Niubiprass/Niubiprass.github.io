@@ -346,13 +346,13 @@ Author: Niubiprass
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 15.5)
 Architecture: iphoneos-arm64e
-Version: 0.2.4
-Installed-Size: 388
-Filename: debs/com.local.cleanstatus_0.2.4_iphoneos-arm64e.deb
-Size: 78204
-MD5sum: 1fa68ddba055a5c960bf838e1346a8e3
-SHA1: dadde9690c4c64caca9f886faac67571f94a7a77
-SHA256: 83bd282be7e2445400bb0486c4359c87b1bb71c0cd3a0d2e58a9eec4d88750e6
+Version: 0.2.5
+Installed-Size: 404
+Filename: debs/com.local.cleanstatus_0.2.5_iphoneos-arm64e.deb
+Size: 79624
+MD5sum: e8fb1d487713fc75a42613faa3a58751
+SHA1: 93f7927a0b5b00a10ab40d57cfc0ad38b8bf47ee
+SHA256: 748d481447cc547e7bb94f1344b6071d4d3eee88edbcefe3c3636ff88c7dbc45
 
 Package: com.moxuan.parallelx
 Name: ParallelX
