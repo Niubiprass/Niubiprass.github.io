@@ -344,15 +344,15 @@ Description: Status icon visibility and inline battery controls for iOS 15.5
 Maintainer: Niubiprass
 Author: Niubiprass
 Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.5)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 15.5)
 Architecture: iphoneos-arm64e
-Version: 0.1.14
-Installed-Size: 212
-Filename: debs/com.local.cleanstatus_0.1.14_iphoneos-arm64e.deb
-Size: 34480
-MD5sum: f2cd96bc2c8838e61435f3f6865f7156
-SHA1: f1204973bdfb1e245f8c7631058790c4c00abb63
-SHA256: e1181ad60a0837abb640a90fc52e9b0bfc77c186bc82280b4ea9351eb673c37b
+Version: 0.2.4
+Installed-Size: 388
+Filename: debs/com.local.cleanstatus_0.2.4_iphoneos-arm64e.deb
+Size: 78204
+MD5sum: 1fa68ddba055a5c960bf838e1346a8e3
+SHA1: dadde9690c4c64caca9f886faac67571f94a7a77
+SHA256: 83bd282be7e2445400bb0486c4359c87b1bb71c0cd3a0d2e58a9eec4d88750e6
 
 Package: com.moxuan.parallelx
 Name: ParallelX
