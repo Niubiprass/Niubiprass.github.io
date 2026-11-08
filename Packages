@@ -365,13 +365,13 @@ Conflicts: com.niubiprass.clonex
 Replaces: com.niubiprass.clonex
 Provides: com.moxuan.parallelx
 Architecture: iphoneos-arm64e
-Version: 0.1.0~alpha391+clone0.33
-Installed-Size: 308
-Filename: debs/com.moxuan.parallelx_0.1.0~alpha391+clone0.33_iphoneos-arm64e.deb
-Size: 403512
-MD5sum: c8e3c7d9695ed3f9a62bb1ad667fad60
-SHA1: f519ac100c8b8e35c59be0544a0688b288ad49b2
-SHA256: 8c3ac80f917273214e9b9440f6cc5de3a5998e8cc9b8d1b03e492ac3e5d2364b
+Version: 0.1.0~alpha391+clone0.64
+Installed-Size: 324
+Filename: debs/com.moxuan.parallelx_0.1.0~alpha391+clone0.64_iphoneos-arm64e.deb
+Size: 406646
+MD5sum: eb946b5515345e818c58e73b8a7f14d1
+SHA1: 88dc641fd2af1594dc6a403f820afd22d06dd1ee
+SHA256: a97bb5e121d966d81f42ef70761621f8edbf69f8ae7b4a2e5fb32f5e50b03e67
 
 Package: com.moxuan1121.clipboard
 Name: clipboard
