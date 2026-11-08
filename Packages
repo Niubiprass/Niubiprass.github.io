@@ -226,13 +226,13 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Homepage: https://github.com/guacforlife/ReynardDefault
 Architecture: iphoneos-arm64e
-Version: 1.5.12
+Version: 1.5.13
 Installed-Size: 644
-Filename: debs/com.guacforlife.reynarddefault_1.5.12_iphoneos-arm64e.deb
-Size: 91954
-MD5sum: 59114b1c91a9737665fc22cbdeff03c5
-SHA1: 3a33897049be4a639331653633dd3fa94e77cebc
-SHA256: 87b1440def92664b77b7f58c37432bd948647817008025e9e0aed4bcbeb7ddcc
+Filename: debs/com.guacforlife.reynarddefault_1.5.13_iphoneos-arm64e.deb
+Size: 92568
+MD5sum: 4f1e43c2b78efe1b243ac012082b3b0a
+SHA1: 690802dcb2b2ca6c18fba4a3698eb00e86fe4f32
+SHA256: ad5500e82da99dc3b5d4300af63bd1435ff1e3440fdb96368904b594c71c24fb
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
