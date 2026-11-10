@@ -160,13 +160,13 @@ Author: crctdd
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
 Architecture: iphoneos-arm64e
-Version: 0.0.3
-Installed-Size: 300
-Filename: debs/Auto Copy Verify-0.0.3-iphoneos-arm64e.deb
-Size: 36576
-MD5sum: e8b72157b42b605ec2861dea9657d342
-SHA1: 5d9bd4856a8385d419eb060f3874a3647186a595
-SHA256: 748ce2829405a704cb4478808a3cd232bfea72bce1fab46648b01fdc9f47483e
+Version: 0.0.5
+Installed-Size: 740
+Filename: debs/com.crctdd.autocopyverify_0.0.5_iphoneos-arm64e.deb
+Size: 77884
+MD5sum: 57577047708f37ac35850896edc2b82b
+SHA1: 19c0462ea790dafc10ed15bb38d3db986c1428e0
+SHA256: 1a220ff5406933c519d28f8a0924ca1d6513ad6ce1507cdf5dae9825b620d53e
 
 Package: com.crctdd.choicy-patch
 Name: Choicy Patch
