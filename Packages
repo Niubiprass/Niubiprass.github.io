@@ -414,13 +414,13 @@ Author: niubiprass
 Section: Tweaks
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
-Version: 0.8.41
-Installed-Size: 484
-Filename: debs/com.niubiprass.minisight_0.8.41_iphoneos-arm64e.deb
-Size: 139832
-MD5sum: 6be1bf069f869d9d91d14dd83554584e
-SHA1: a68441f440d94d1d348154b4e4e2aa3e6c1e9d00
-SHA256: 6cd9d62d04edea5b94095040ac585f3098b55ca8e1697439798088a3ec013f85
+Version: 0.8.44
+Installed-Size: 632
+Filename: debs/com.niubiprass.minisight_0.8.44_iphoneos-arm64e.deb
+Size: 185940
+MD5sum: 07d31caa8d96bd64eb41a201b98dfdb6
+SHA1: a9483fcaf95b778d01cfb37b3db77cb4f35524db
+SHA256: 2c3d3cde4e0c0c071bac4a700ceba0a94d894ff1feda776ba229590519a03d6e
 
 Package: com.niubiprass.particlex
 Name: ParticleX
